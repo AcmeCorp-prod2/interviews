@@ -11,6 +11,7 @@ class LongestConsecutiveSequence {
         if(nums == null || nums.length == 0) {
             return 0;
         }
+
         
         Set<Integer> set = new HashSet<Integer>();
         for(int n: nums) {

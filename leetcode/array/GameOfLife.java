@@ -14,6 +14,7 @@
 
 public class GameOfLife {
     public void gameOfLife(int[][] board) {
+        
         if(board == null || board.length == 0) {
             return;
         }

@@ -11,6 +11,7 @@ public class Solution {
         
         dp[0] = nums[0];
         
+        
         int max = dp[0];
         
         for(int i = 1; i < nums.length; i++) {

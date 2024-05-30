@@ -9,6 +9,7 @@
 /* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
 
+
 public class FindTheCelebrity extends Relation {
     public int findCelebrity(int n) {
         //initialize candidate to 0

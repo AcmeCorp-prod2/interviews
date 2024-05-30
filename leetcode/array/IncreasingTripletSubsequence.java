@@ -14,6 +14,7 @@
 
 public class IncreasingTripletSequence {
     public boolean increasingTriplet(int[] nums) {
+        
         int firstMin = Integer.MAX_VALUE;
         int secondMin = Integer.MAX_VALUE;
         
